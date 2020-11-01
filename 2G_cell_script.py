@@ -1,7 +1,7 @@
 # import Pandas
 import pandas as pd
 
-# import exxcel data and create a dataFrame
+# import excel data and create a dataFrame
 df = pd.read_excel('template_script.xlsx')
 
 # create Dictionary  PARAMETER RELATED as key and the script as value
