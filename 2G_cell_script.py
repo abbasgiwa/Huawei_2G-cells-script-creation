@@ -4,6 +4,8 @@ import pandas as pd
 # import excel data and create a dataFrame
 df = pd.read_excel('template_script.xlsx')
 
+df.head()
+
 # create Dictionary  PARAMETER RELATED as key and the script as value
 values = {
    'AMR':'SET GCELLCHMGAD:IDTYPE=BYNAME,CELLNAME="{}",AMRTCHHPRIORALLOW=ON,AMRTCHHPRIORLOAD={};{{{}}}',
