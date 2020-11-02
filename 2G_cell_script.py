@@ -1,4 +1,4 @@
-# import Pandas
+# Importing  Pandas
 import pandas as pd
 
 # import excel data and create a dataFrame
